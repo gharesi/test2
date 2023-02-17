@@ -1,0 +1,5 @@
+star = '*'
+raws = input("enter the number of raws")
+raws = int(raws)
+for i in range(raws,0,-1):
+    print(star*i)
